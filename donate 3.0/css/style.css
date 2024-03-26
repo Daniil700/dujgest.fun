@@ -1,0 +1,374 @@
+::-webkit-scrollbar {
+  width: 12px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1e3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(206, 206, 206);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(206, 206, 206);
+}
+
+.categories::-webkit-scrollbar {
+    display: none;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.monitor {
+    background: #1d1e24;
+    position: relative
+}
+
+.monitor-info {
+    position: absolute;
+    top: 50%
+}
+
+.filter {
+    cursor: pointer;
+}
+
+.badge-lg {
+    padding: 10px;
+}
+
+.badge-active {
+    background: #1b1c1d !important;
+    color: white !important;
+}
+
+.badge-active:hover {
+    color: whitesmoke !important;
+}
+
+.progress-block {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+}
+
+.monitor-progress {
+    height: 4.5px;
+}
+
+.rounded {
+    border-radius: 30px;
+}
+
+.border-radius-0 {
+    border-radius: 0 !important;
+}
+
+.alert {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1030;
+    width: 25%;
+}
+
+.loader {
+  position: absolute;
+  top: calc(50% - 32px);
+  left: calc(50% - 32px);
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  perspective: 800px;
+}
+
+.inner {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.inner.one {
+  left: 0%;
+  top: 0%;
+  animation: rotate-one 1s linear infinite;
+  border-bottom: 3px solid black;
+}
+
+.inner.two {
+  right: 0%;
+  top: 0%;
+  animation: rotate-two 1s linear infinite;
+  border-right: 3px solid black;
+}
+
+.inner.three {
+  right: 0%;
+  bottom: 0%;
+  animation: rotate-three 1s linear infinite;
+  border-top: 3px solid black;
+}
+
+@keyframes rotate-one {
+  0% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+  }
+}
+
+@keyframes rotate-two {
+  0% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+  }
+}
+
+@keyframes rotate-three {
+  0% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+  }
+}
+
+.pricing-value {
+    width: 20px;
+    height: 150px;
+    border-radius: 50%;
+    border-width: 0.375rem;
+    border-style: double;
+    margin: 0 auto;
+}
+
+.bg-soft-light {
+    background-color: #fcfcfd !important;
+}
+
+.fixed-bottom-right {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.basket-button {
+    border-radius: 25px;
+    z-index: 99!important;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    right: 0 !important;
+    padding: 15px !important;
+    text-align: center;
+    color: white !important;
+}
+
+
+.text-small {
+    font-size: 14px !important;
+}
+
+.btn-purple:hover {
+    box-shadow: 0 8px 43px #2565ddcc;
+}
+
+
+
+
+
+.owl-dot.owl-dot-white > span {
+    border: 2px solid white !important
+}
+
+.owl-dot.owl-dot-white > span:hover {
+    background: whitesmoke !important;
+}
+
+.owl-dot.owl-dot-white.active > span {
+    background: white !important;
+}
+
+
+
+.product-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 156px;
+}
+
+.up-widget {
+    z-index: 100500 !important;
+}
+
+.protected-by {
+    display: none !important;
+}
+
+.ql-align-center {
+    text-align: center;
+}
+
+.ql-align-right {
+    text-align: right;
+}
+
+.ql-align-justify {
+    text-align: justify;
+}
+
+
+.card-fluid {
+    height: calc(100% - 30px);
+}
+
+.categories {
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.product-info {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    display: inline-flex;
+    height: 26px;
+    width: 26px;
+    background: transparent;
+    border-radius: 8px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s ease-out;
+    z-index: 1;
+}
+
+.product-info > img {
+    width: 14px;
+    height: 14px;
+    filter: grayscale(1) brightness(10);
+}
+
+
+.font-weight-100 {
+    font-weight: 100 !important;
+}
+.font-weight-200 {
+    font-weight: 600 !important;
+}
+.font-weight-300 {
+    font-weight: 300 !important;
+}
+.font-weight-400 {
+    font-weight: 400 !important;
+}
+.font-weight-500 {
+    font-weight: 500 !important;
+}
+.font-weight-600 {
+    font-weight: 600 !important;
+}
+.font-weight-700 {
+    font-weight: 700 !important;
+}
+.font-weight-800 {
+    font-weight: 800 !important;
+}
+.font-weight-900 {
+    font-weight: 900 !important;
+}
+
+.rounded-xl {
+    border-radius: 1.5rem !important;
+}
+
+
+
+.calimbula-radius {
+    border-radius: 0 0 256px 256px;
+    overflow: hidden;
+}
+
+@media(max-width: 991px) {
+    .calimbula-radius {
+        border-radius: 0 0 152px 152px;
+    }
+}
+
+@media(max-width: 574px) {
+    .calimbula-radius {
+        border-radius: 0 0 82px 82px;
+    }
+}
+
+.apple-pay, .google-pay {
+    height: 20px;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 10px;
+    opacity: .7;
+}
+
+.position-absolute.center-y {
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.skeleton-box {
+    display: inline-block;
+    height: 1em;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    background: #e2e8f0;
+}
+
+.skeleton-box::after {
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(90deg, #d6d9df00 0, #d6d9df20 20%, #d6d9df80 60%, #d6d9df00);
+    -webkit-animation: shimmer 1s infinite;
+    animation: shimmer 1.6s infinite;
+    content: "";
+}
+
+@-webkit-keyframes shimmer {
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes shimmer {
+    100% {
+        transform: translateX(100%);
+    }
+}
